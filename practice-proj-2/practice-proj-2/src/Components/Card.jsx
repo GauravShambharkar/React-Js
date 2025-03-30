@@ -16,7 +16,8 @@ function Card({elem, index, handleClick }){
                 {/* song content */}
                 <div className="cardContent mt-2 flex items-center ">
 
-                    {/* song details */}
+
+                    {/* song info */}
                     <div className="Details mr-auto" >
                         <h1 className="font-bold text-lg" >{songName}</h1>
                         <h5 className="" >{artist}</h5>
